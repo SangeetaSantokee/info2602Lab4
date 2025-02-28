@@ -35,7 +35,7 @@
 
   </head>
   <body>
-    <nav class="blue">
+    <nav class="pink darken-1">
       <div class="nav-wrapper">
         <a href="#!" class="brand-logo center">{% block page %}{% endblock %}</a>
         {% block link %}{% endblock %}
@@ -47,7 +47,7 @@
       {% with messages = get_flashed_messages() %}
       {% if messages %}
   
-        <div  id="alert" class="blue lighten-5 col s10 offset-s1">     
+        <div  id="alert" class="purple lighten-5 col s10 offset-s1">     
           {% for message in messages %}
             <div style="font-weight: bold;text-align: center;font-size: 1.2em;margin-top: -5px;">{{ message }}</div>
           {% endfor %}
